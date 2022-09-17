@@ -5,7 +5,7 @@ This is my small array program where you will be able to do one of three things
 1. Sort the intergers from smallest to largest 
 1. Lastley choose a randome number from the integers
 
-##How to run the program
+## How to run the program
  to run the program you must first pull from github, have python 3.10 downloaded on your computer, then run  the program on whichever IDE works best for you.
  you will be given an terminal that says:
  What would you like to do?
@@ -18,4 +18,4 @@ if you click key 2 into your keybaord then press enter it will print the arry so
 if you clock key three into yourkeyboard then press enter it will print a random intiger from the array
 if you press anytother buttons the application will close down
 
-##Thank you for reading the readme.mfd file
+## hank you for reading the readme.mfd file

@@ -11,10 +11,12 @@ def createArry(): #creates an array for the user
 def sortArry(arry): # this will sort and return the array to the user
     arry.sort()
     return arry
+
 def randomValue(arry):
     size = len(arry)
     randNum = np.random.randint(0,size)
     return arry[randNum]
+
 arry = createArry() # gets function 
 
 while True: #while loop to ask user how what tasks they want to be done
@@ -38,7 +40,7 @@ while True: #while loop to ask user how what tasks they want to be done
 
 class MyTest(unittest.TestCase): #test cases for both creating an array and sort array
     def test_mkArry(self):
-      self.assertEqual(createArry(), arry)
+      self.assertEqual(createArry(),[6, 5, 4, 7, 38, 9, 4, 8, 5, 7] )
     def test_sortArray(self):
         self.assertEqual(sortArry(arry),[4, 4, 5, 5, 6, 7, 7, 8, 9, 38])
     def test_randomValue(self):
