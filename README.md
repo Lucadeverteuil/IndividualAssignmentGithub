@@ -18,4 +18,7 @@ if you click key 2 into your keybaord then press enter it will print the arry so
 if you clock key three into yourkeyboard then press enter it will print a random intiger from the array
 if you press anytother buttons the application will close down
 
-## hank you for reading the readme.mfd file
+## Thank you for reading the readme.mfd file
+
+---
+
