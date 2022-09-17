@@ -1,3 +1,4 @@
+
 import random
 import unittest
 import numpy as np
@@ -35,9 +36,9 @@ while True: #while loop to ask user how what tasks they want to be done
 
 
 
-class MyTest(unittest.TestCase): #test cases for both creating an array and sort array and randvalue
+class MyTest(unittest.TestCase): #test cases for both creating an array and sort array
     def test_mkArry(self):
-      self.assertEqual(createArry(), arry) 
+      self.assertEqual(createArry(), arry)
     def test_sortArray(self):
         self.assertEqual(sortArry(arry),[4, 4, 5, 5, 6, 7, 7, 8, 9, 38])
     def test_randomValue(self):
@@ -49,3 +50,4 @@ class MyTest(unittest.TestCase): #test cases for both creating an array and sort
                 break
         self.assertEqual(x,arry[y])  
        
+unittest.main()
